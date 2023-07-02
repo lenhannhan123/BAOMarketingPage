@@ -2220,6 +2220,13 @@ progress {
     #slider-first {
         display: none;
     }
+    #slider-first-mobile {
+        margin-left: 0px;
+    }
+}
+
+#slider-first-mobile {
+    margin-left: 4rem;
 }
 
 @media (max-width: 1399.98px) {
