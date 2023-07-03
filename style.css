@@ -2234,6 +2234,9 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
+    #slider-first-mobile {
+        margin-left: 0px;
+    }
 }
 
 .form-label {
