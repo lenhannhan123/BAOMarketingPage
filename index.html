@@ -376,7 +376,9 @@
                                 <div class="clear mt-5"></div>
                                 <abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel:+84559263160"> (+84) 559 263 160</a><br>
                                 <abbr title="Fax"><strong>Fan Page:</strong></abbr> <a href="https://www.facebook.com/baomkt.company"> BAO Marketing</a><br>
-                                <abbr title="Email Address"><strong>Website:</strong></abbr> <a href="https://baomkt.com/">baomkt.com</a>
+                                <abbr title="Website"><strong>Website:</strong></abbr> <a href="https://baomkt.com/">baomkt.com</a>
+                                <abbr title="Email Address"><strong>Email Address:</strong></abbr><a href="mailto:info@baomkt.com">info@baomkt.com</a>
+
                             </div>
                         </div>
                         <div class="col-lg-5" style="text-align: center;" id="slider-first">
@@ -397,7 +399,7 @@
         </div>
     </footer>
     <script src="js/functions.js"></script>
-	<!-- Messenger Plugin chat Code -->
+    <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 
     <!-- Your Plugin chat code -->
@@ -405,27 +407,28 @@
     </div>
 
     <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "110691705388957");
-      chatbox.setAttribute("attribution", "biz_inbox");
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "110691705388957");
+        chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
     <!-- Your SDK code -->
     <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v17.0'
-        });
-      };
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v17.0'
+            });
+        };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
 </body>
